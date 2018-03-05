@@ -1,0 +1,6 @@
+*.bag
+*avi
+*.png
+*.pdf
+.ipynb_checkpoints
+.DS_Store
