@@ -1,5 +1,7 @@
 *.bag
-*avi
+*.avi
+*.mov
+*.mp4
 *.png
 *.pdf
 .ipynb_checkpoints
