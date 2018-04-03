@@ -37,8 +37,8 @@ def frame_to_bounding_box(img, IMAGE_MODE='rgb'):
     x1, y1 = coords[0]
     x2, y2 = coords[1]
     fin = img
-    cv2.rectangle(fin, (x1, y1), (x2, y2), 255, 2)
-    return fin
+    cv2.rectangle(fin, (x1, y1), (x2, y2), 125, 10)
+    return (fin, (x1, y1), (x2, y2))
 
 if __name__ == "__main__":
     img = cv2.imread('test_img.png', cv2.IMREAD_COLOR)
